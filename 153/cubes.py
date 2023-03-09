@@ -1,7 +1,7 @@
 import random
 
 # Generate 3 random positive integers divisible by three
-numbers = [random.randint(1, 100000) * 3 for _ in range(3)]
+numbers = [random.randint(1, 1000) * 3 for _ in range(3)]
 
 # Ask the user if they want to select a random number or enter one manually
 print("Do you want to:")
